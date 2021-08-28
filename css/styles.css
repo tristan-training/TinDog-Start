@@ -162,7 +162,6 @@ p {font-family: "Ubuntu", sans-serif;
 
 
 #testimonials {
-  padding: 4% 10%;
   text-align: center;
   background-color: #f76773;
   color: whitesmoke;
@@ -172,6 +171,10 @@ p {font-family: "Ubuntu", sans-serif;
   width: 20%;
   border-radius: 100%;
   margin: 3%;
+}
+
+.testimonial-item {
+  padding: 7% 15%;
 }
 
 #press {
