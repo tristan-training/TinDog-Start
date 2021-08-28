@@ -54,9 +54,9 @@ p {
   padding-bottom: 5%;
 }
 
-.sites-buttons {
-  margin-left: 1%;
-  margin-right: 1%;
+.style-button {
+  padding-top: 5%;
+  text-align: left;
 }
 
 @keyframes wagging-dog {
@@ -131,7 +131,7 @@ p {
   color: #ff616db0;
 }
 
-.style-feature-parent:hover {  
+.style-feature-parent:hover {
   padding: 0;
 }
 
@@ -139,11 +139,7 @@ p {
   background-color: gainsboro;
   border: 1px solid grey;
   color: #000;
-  font-size: 1.4rem;
-    padding-left: 4%;
-   padding-right: 4%;
-   padding-top: 4%;
-   padding-bottom: 4%;
+  font-size: 1.3rem;
 }
 
 .style-feature-parent:hover .style-feature .feature-icon {
