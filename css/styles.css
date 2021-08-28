@@ -6,6 +6,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #ff616d;
   color: whitesmoke;
+  text-align: center;
 }
 
 h1,
@@ -47,28 +48,18 @@ em {
 
 .navbar {
   padding-left: 0;
-  padding-right: 15%;
+  padding-right: 20%;
 }
 
 .nav-item {
-  padding-right: 10%;
+  padding-right: 12%;
 }
 
 .container-fluid {
-  padding-top: 3%;
-  padding-left: 14%;
-  padding-right: 9%;
-  padding-bottom: 10%;
-}
-
-.apple-android-buttons {
-  padding-bottom: 5%;
+  padding: 7% 15%;
 }
 
 .style-button-col {
-  padding: 0;
-  padding-top: 5%;
-  padding-left: 1%;
   text-align: left;
 }
 
@@ -79,12 +70,19 @@ em {
 .dog {
   transform: rotate(16.5deg);
   position: absolute;
-  top: 120px;
+  top: 50px;
   right: 25%;
 }
 
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
 #features {
-  padding: 5%;
   background-color: whitesmoke;
   color: black;
   position: relative;
@@ -112,7 +110,6 @@ em {
 }
 
 #testimonials {
-  text-align: center;
   background-color: #f76773;
   color: whitesmoke;
 }
@@ -123,24 +120,18 @@ em {
   margin: 3%;
 }
 
-.testimonial-item {
-  padding: 7% 15%;
-}
-
 #press {
   background-color: #f76773;
   color: whitesmoke;
-  text-align: center;
   padding-bottom: 3%;
 }
 
 .press-image {
   margin: 2%;
-  width: 15%;
+  width: 10%;
 }
 
 #pricing {
-  padding: 8% 10% 0;
   background-color: whitesmoke;
   color: black;
 }
@@ -154,15 +145,7 @@ em {
   padding-bottom: 10%;
 }
 
-#cta {
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 115px;
-}
-
 #cta h3 {
-  padding-left: 25%;
-  padding-right: 25%;
   font-size: 3.5em;
 }
 
@@ -174,9 +157,6 @@ em {
 }
 
 #footer {
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
   background-color: whitesmoke;
   color: #00000040;
 }
@@ -207,19 +187,14 @@ em {
     padding-top: 10%;
   }
 
-  .apple-android-buttons {
-    text-align: center;
-  }
-
+  .apple-android-buttons,
   .style-button-col {
     text-align: center;
   }
 
-  .container-fluid {
-    padding-top: 3%;
-    padding-left: 10%;
-    padding-right: 5%;
-    padding-bottom: 10%;
+  .container-fluid,
+  #title .container-fluid {
+    padding: 7%;
   }
 
   .testimonial-image {
@@ -232,11 +207,6 @@ em {
 
   #pricing h3 {
     font-size: 2em;
-  }
-
-  #cta h3 {
-    padding-left: 20%;
-    padding-right: 20%;
   }
 }
 
@@ -251,7 +221,7 @@ em {
   }
 
   .navbar {
-    padding-right: 0%;
+    padding-right: 0;
   }
 
   .testimonial-image {
@@ -269,8 +239,6 @@ em {
   }
 
   #cta h3 {
-    padding-left: 5%;
-    padding-right: 5%;
     font-size: 2.5em;
   }
 }
