@@ -4,8 +4,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #ff616d;
-  color: whitesmoke;
+
   text-align: center;
 }
 
@@ -32,6 +31,16 @@ em {
   font-family: "Ubuntu", sans-serif;
   font-weight: 200;
   font-size: 1.5em;
+}
+
+.colored-section {
+  background-color: #ff616d;
+  color: whitesmoke;
+}
+
+.white-section {
+  background-color: whitesmoke;
+  color: black;
 }
 
 .big-heading {
@@ -74,22 +83,19 @@ em {
   right: 25%;
 }
 
-#title {
+#title .container-fluid {
+  padding: 3% 15% 7%;
   text-align: left;
 }
 
-#title .container-fluid {
-  padding: 3% 15% 7%;
-}
-
 #features {
-  background-color: whitesmoke;
-  color: black;
+  /*background-color: rgb(161, 147, 147);
+  color: black;*/
   position: relative;
 }
 
 #features .card {
-  background-color: gainsboro;
+  /*background-color: gainsboro;*/
 }
 
 #features .feature {
@@ -110,8 +116,7 @@ em {
 }
 
 #testimonials {
-  background-color: #f76773;
-  color: whitesmoke;
+  background-color: #f76773;  
 }
 
 .testimonial-image {
@@ -121,8 +126,7 @@ em {
 }
 
 #press {
-  background-color: #f76773;
-  color: whitesmoke;
+  background-color: #f76773;  
   padding-bottom: 3%;
 }
 
@@ -131,14 +135,6 @@ em {
   width: 10%;
 }
 
-#pricing {
-  background-color: whitesmoke;
-  color: black;
-}
-
-#pricing .card {
-  background-color: gainsboro;
-}
 
 #pricing .pricing-column {
   padding-top: 4%;
@@ -157,7 +153,6 @@ em {
 }
 
 #footer {
-  background-color: whitesmoke;
   color: #00000040;
 }
 
