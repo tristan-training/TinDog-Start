@@ -26,8 +26,13 @@ h3 {
   font-size: 2.5em;
 }
 
-p {font-family: "Ubuntu", sans-serif;
+p {
+  font-family: "Ubuntu", sans-serif;
   font-weight: 200;
+  font-size: 1.5em;
+}
+
+em {
   font-size: 1.5em;
 }
 
@@ -57,109 +62,53 @@ p {font-family: "Ubuntu", sans-serif;
   padding-top: 3%;
   padding-left: 14%;
   padding-right: 9%;
-  padding-bottom: 5%;
-}
-
-.style-button {
-  padding: 0;
-  padding-top: 5%;
-  text-align: left;
-}
-
-@keyframes wagging-dog {
-  0% {
-    transform: rotate(16.5deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(16.5deg);
-  }
-}
-
-@keyframes patting-dog {
-  0% {
-    transform: rotate(0deg);
-    width: 45%;
-  }
-  100% {
-    transform: rotate(16.5deg);
-    width: 55%;
-  }
+  padding-bottom: 10%;
 }
 
 .apple-android-buttons {
-  padding-top: 10%;
+  padding-bottom: 5%;
 }
 
-.annimate-dog {
+.style-button-col {
+  padding: 0;
+  padding-top: 5%;
+  padding-left: 1%;
+  text-align: left;
+}
+
+.style-button {
+  width: 170px;
+}
+
+.dog {
   transform: rotate(16.5deg);
-  width: 45%;
-}
-.annimate-dog:hover {
-  animation: wagging-dog 1s ease-in-out infinite;
-  cursor: grab;
+  position: absolute;
+  top: 120px;
+  right: 25%;
 }
 
-.annimate-dog:active {
-  animation: patting-dog 0.5s linear forwards;
-  cursor: grabbing;
-}
-
-.dog-kennel {
-  text-align: center;
-  padding-top: 10%;
-}
-
-.style-features {
-  text-align: center;
-  padding: 2% 2% 0 2%;
+#features {
+  padding: 5%;
   background-color: whitesmoke;
+  position: relative;
 }
 
-.style-feature-parent {
-  padding: 4%;
-  background-color: whitesmoke;
-  border: 0 none;
-}
-
-.style-feature-parent .style-feature {
-  color: #000000c0;
-  background-color: whitesmoke;
-  border: 1px solid gainsboro;
-  padding: 0;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.style-feature-parent .style-feature .feature-icon {
-  font-size: 4rem;
-  color: #ff616db0;
-}
-
-.style-feature-parent:hover {
-  padding: 0;
-}
-
-.style-feature-parent:hover .style-feature {
+#features .card {
   background-color: gainsboro;
-  border: 1px solid grey;
-  color: #000;
-  font-size: 1.3rem;
 }
 
-.style-feature-parent:hover .style-feature .feature-icon {
-  font-size: 5rem;
+#features .feature {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+#features .feature-icon {
+  font-size: 5em;
+}
+
+#features .feature-card:hover .feature-icon {
   color: #ff616d;
 }
-
-.feature-padding {
-  padding-left: 15%;
-  padding-right: 15%;
-}
-
-
 
 #testimonials {
   text-align: center;
@@ -168,7 +117,7 @@ p {font-family: "Ubuntu", sans-serif;
 }
 
 .testimonial-image {
-  width: 20%;
+  width: 30%;
   border-radius: 100%;
   margin: 3%;
 }
@@ -187,4 +136,139 @@ p {font-family: "Ubuntu", sans-serif;
 .press-image {
   margin: 2%;
   width: 15%;
+}
+
+#pricing {
+  padding: 8% 10% 0;
+  background-color: whitesmoke;
+}
+
+#pricing .card {
+  background-color: gainsboro;
+}
+
+#pricing .pricing-column {
+  padding-top: 4%;
+  padding-bottom: 10%;
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff616d;
+  color: whitesmoke;
+  padding-top: 100px;
+  padding-bottom: 115px;
+}
+
+#cta .style-button {
+  width: 170px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 60px;
+}
+
+#cta h3 {  
+  padding-left: 33%;
+  padding-right: 33%;
+}
+
+#footer {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: whitesmoke;
+  color: #00000040;
+}
+
+.social-icon {
+  padding: 10px;
+  font-size: 2em;
+  color: #000000A0;
+}
+
+@media (max-width: 1250px) {
+  h2 {
+    font-size: 2.5em;
+  }
+
+  
+  em {
+    font-size: 1.25em;
+  }
+
+  .dog-kennel {
+    text-align: center;
+  }
+
+  .dog {
+    position: static;
+    transform: rotate(0deg);
+    right: 0;
+    padding-top: 10%;
+  }
+
+  .apple-android-buttons {
+    text-align: center;
+  }
+
+  .style-button-col {
+    text-align: center;
+  }
+
+  .container-fluid {
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+  }
+
+  .testimonial-image {
+    width: 40%;
+  }
+
+  .press-image {
+    width: 18%;
+  }
+
+  #pricing h3 {
+    font-size: 2em;
+  }
+
+  #cta h3 {   
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media (max-width: 990px) {
+  h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+
+  em {
+    font-size: 0.85em;
+  }
+
+  .navbar {
+    padding-right: 0%;
+  }
+
+  .testimonial-image {
+    width: 50%;
+  }
+
+  .press-image {
+    width: 21%;
+    margin: 1%;
+  }
+
+  #cta h3 {   
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #pricing h2 {
+    font-size: 2em;
+  }
 }
