@@ -13,14 +13,20 @@ h1 {
   padding-bottom: 5%;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 1.5;
+}
+
 h3 {
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   font-size: 2.5em;
 }
 
-p {
-  font-family: "Ubuntu", sans-serif;
+p {font-family: "Ubuntu", sans-serif;
   font-weight: 200;
   font-size: 1.5em;
 }
@@ -55,6 +61,7 @@ p {
 }
 
 .style-button {
+  padding: 0;
   padding-top: 5%;
   text-align: left;
 }
@@ -150,4 +157,31 @@ p {
 .feature-padding {
   padding-left: 15%;
   padding-right: 15%;
+}
+
+
+
+#testimonials {
+  padding: 4% 10%;
+  text-align: center;
+  background-color: #f76773;
+  color: whitesmoke;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 3%;
+}
+
+#press {
+  background-color: #f76773;
+  color: whitesmoke;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  margin: 2%;
+  width: 15%;
 }
