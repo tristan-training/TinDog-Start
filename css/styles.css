@@ -4,44 +4,42 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #ff616d;
+  color: whitesmoke;
 }
 
-h1 {
-  font-size: 3.5em;
-  line-height: 1.5;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 900;
-  padding-bottom: 5%;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
   font-size: 3em;
   line-height: 1.5;
 }
 
 h3 {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: bold;
   font-size: 2.5em;
 }
 
-p {
+p,
+em {
   font-family: "Ubuntu", sans-serif;
   font-weight: 200;
   font-size: 1.5em;
 }
 
-em {
-  font-size: 1.5em;
+.big-heading {
+  font-size: 3.5em;
+  line-height: 1.5;
+  padding-bottom: 5%;
 }
 
-#title {
-  background-color: #ff616d;
-  color: whitesmoke;
-}
-
-.navbar-brand {
+.brand-style {
   font-size: 3rem;
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
@@ -49,13 +47,11 @@ em {
 
 .navbar {
   padding-left: 0;
-  padding-right: 10%;
+  padding-right: 15%;
 }
 
 .nav-item {
   padding-right: 10%;
-  font-size: 1.2rem;
-  font-weight: 200;
 }
 
 .container-fluid {
@@ -90,6 +86,7 @@ em {
 #features {
   padding: 5%;
   background-color: whitesmoke;
+  color: black;
   position: relative;
 }
 
@@ -141,6 +138,7 @@ em {
 #pricing {
   padding: 8% 10% 0;
   background-color: whitesmoke;
+  color: black;
 }
 
 #pricing .card {
@@ -154,8 +152,6 @@ em {
 
 #cta {
   text-align: center;
-  background-color: #ff616d;
-  color: whitesmoke;
   padding-top: 100px;
   padding-bottom: 115px;
 }
@@ -167,13 +163,12 @@ em {
   margin-top: 60px;
 }
 
-#cta h3 {  
+#cta h3 {
   padding-left: 25%;
   padding-right: 25%;
   font-size: 3.5em;
-  font-weight: 900;
-  font-family: "Montserrat", sans-serif;
-
+  /*font-weight: 900;
+  font-family: "Montserrat", sans-serif;*/
 }
 
 #footer {
@@ -187,7 +182,7 @@ em {
 .social-icon {
   padding: 10px;
   font-size: 2em;
-  color: #000000A0;
+  color: #000000a0;
 }
 
 @media (max-width: 1250px) {
@@ -195,7 +190,6 @@ em {
     font-size: 2.5em;
   }
 
-  
   em {
     font-size: 1.25em;
   }
@@ -238,7 +232,7 @@ em {
     font-size: 2em;
   }
 
-  #cta h3 {   
+  #cta h3 {
     padding-left: 20%;
     padding-right: 20%;
   }
@@ -267,13 +261,14 @@ em {
     margin: 1%;
   }
 
-  #cta h3 {   
+  #pricing h2 {
+    font-size: 2.5em;
+    font-weight: 900;
+  }
+
+  #cta h3 {
     padding-left: 5%;
     padding-right: 5%;
     font-size: 2.5em;
-  }
-
-  #pricing h2 {
-    font-size: 2em;
   }
 }
